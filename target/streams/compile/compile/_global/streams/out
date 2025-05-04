@@ -1,0 +1,18 @@
+[warn] -- Warning: D:\Learning_materials_summary\REPS\src\main\scala\EnergyDataProcessor.scala:220:0 
+[warn] 220 |private def analyzeData(data: Seq[EnergyProduction], threshold: Double): Unit = {
+[warn]     |^
+[warn]     |Line is indented too far to the left, or a `}` is missing
+[warn] -- [E029] Pattern Match Exhaustivity Warning: D:\Learning_materials_summary\REPS\src\main\scala\EnergyDataProcessor.scala:157:4 
+[warn] 157 |    actionResult match {
+[warn]     |    ^^^^^^^^^^^^
+[warn]     |    match may not be exhaustive.
+[warn]     |
+[warn]     |    It would fail on pattern case: Success(_)
+[warn]     |
+[warn]     | longer explanation available when compiling with `-explain`
+[warn] -- Warning: D:\Learning_materials_summary\REPS\src\main\scala\EnergyDataProcessor.scala:188:59 
+[warn] 188 |    val plant = plants.find(_.name == plantName).getOrElse(return println(s"$plantName plant not found."))
+[warn]     |                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[warn]     |Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+[warn] there was 1 deprecation warning; re-run with -deprecation for details
+[warn] four warnings found

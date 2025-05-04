@@ -1,0 +1,6 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 12 products, 6 sources, 2 libraries
+[debug] current source = Set(${BASE}/src/main/scala/EnergyDataProcessor.scala, ${BASE}/src/main/scala/EnergyDataLoader.scala, ${BASE}/src/main/scala/EnergyPlant.scala, ${BASE}/src/main/scala/EnergyProduction.scala, ${BASE}/src/main/scala/DataAnalysis.scala, ${BASE}/src/main/scala/EnergyManagementSystem.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] No changes
